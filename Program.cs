@@ -29,6 +29,9 @@ namespace Divisao
             double result = numerador / denominador ;
 
             Console.WriteLine ($"{numerador} dividido por {denominador} é {result}. ");
+            
+            Console.WriteLine ("Pressione enter para finalizar.");
+            Console.ReadKey();
         }
     }
 }
